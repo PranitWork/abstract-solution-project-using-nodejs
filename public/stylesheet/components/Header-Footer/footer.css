@@ -1,0 +1,151 @@
+/* < !-- footer open --> */
+
+#footer {
+    width: 100%;
+    padding: 120px 0px 0px 0px;
+    background: #222222;
+    color: var(--white-color);
+    position: absolute;
+    top: 72px;
+    z-index: -1;
+}
+
+#footer-heading {
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 70px 0px;
+}
+
+#footerlogo-name {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#footer-heading-text-1 img {
+    width: 80px;
+    height: 80px;
+    background: var(--white-color);
+    border-radius: 50px;
+}
+
+#footer-heading-text-1 h2 {
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.footer-heading-text h3 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
+#footer-content {
+    margin-top: 40px;
+}
+
+#footer-content p {
+    margin-bottom: 10px;
+
+}
+
+#footer-content-text {
+    margin-top: 20px;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.footer-address {
+    text-align: left;
+}
+
+.footer-heading-text p a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.footer-heading-text p a:hover {
+    color: var(--primary-color)
+}
+
+/* copyright open */
+#copyright {
+    border-top: 2px solid var(--white-color);
+    text-align: center;
+    padding: 15px 0px;
+
+}
+
+#copyright p {
+    font-weight: 400;
+
+}
+
+#copyright p span {
+    transition: 0.3s linear;
+}
+
+#copyright p span:hover {
+    color: var(--primary-color);
+}
+
+/* < !-- footer close --> */
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* < !-- footer open --> */
+
+
+    #footer {
+        position: static;
+        margin-top: -100px;
+        padding-top: 100px;
+        justify-content: center;
+    }
+
+    #footer-heading {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-heading-text {
+        margin-top: 50px;
+    }
+
+    #footer-content-text {
+        text-align: center;
+    }
+
+
+    #footerlogo-name {
+        justify-content: center;
+
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+
+    .footer-heading-text h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #footer-content {
+        margin-top: 20px;
+    }
+
+    /* < !-- footer close --> */
+}

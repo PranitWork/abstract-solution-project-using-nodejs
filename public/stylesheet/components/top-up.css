@@ -1,0 +1,36 @@
+/* slide up open */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.to-top {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--primary-color);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 25px;
+    bottom: 0px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 100;
+    transition: all .4s;
+}
+
+.to-top a {
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+.to-top.active {
+    opacity: 1;
+    pointer-events: auto;
+    bottom: 50px;
+}
+
+/* slide up close */

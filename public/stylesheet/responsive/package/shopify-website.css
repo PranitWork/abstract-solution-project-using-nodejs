@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+
+    .sp-package-home {
+        padding-top: 10px;
+    }
+
+    .sp-package-home-inner {
+        width: 100%;
+    }
+
+    .shopify-package-detail-inner {
+        width: 100%;
+    }
+
+    .sp-website-pricing-details {
+        flex-wrap: wrap;
+    }
+
+    .sp-website-pricing-div {
+        margin-bottom: 30px
+    }
+
+}

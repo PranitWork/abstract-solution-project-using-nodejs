@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+
+    .wp-package-home {
+        padding-top: 10px;
+    }
+
+    .wp-package-home-inner {
+        width: 100%;
+    }
+
+    .wordpress-package-detail-inner {
+        width: 100%;
+    }
+
+    .wp-website-pricing-details {
+        flex-wrap: wrap;
+    }
+
+    .wp-website-pricing-div {
+        margin-bottom: 30px
+    }
+
+}

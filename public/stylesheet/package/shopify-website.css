@@ -1,0 +1,18 @@
+/* < !-- wordpress-package home start --> */
+
+.sp-package-home {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.sp-package-home-inner {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    background: url(/images/package/wordpress-image/package-banner.png) no-repeat;
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 25px;
+}
+
+/* < !-- wordpress-package home stop --> */

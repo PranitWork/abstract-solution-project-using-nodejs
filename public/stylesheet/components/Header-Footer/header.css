@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary-color: #3D91DF;
+    --button-hover: #095399;
+    --white-color: #fff;
+    --black-color: #000000;
+    --subnav-color: #161A30;
+    --red-color: #da0a60;
+    --hero-background: #c6d5e3;
+    --home-services-overview: #192655;
+    --services-div: #4B4B4B;
+    --price-plan: #F6EAEA;
+    --price-plan-hover: #98F89B;
+}
+
+body {
+    scroll-behavior: smooth;
+    cursor: default;
+    /* overflow-x: hidden; */
+}
+
+
+
+
+/* navigation open */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    background: var(--white-color);
+}
+
+
+#Navigation {
+    width: 90%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: var(--white-color);
+
+}
+
+#logo img {
+    width: 80px;
+}
+
+#pages ul {
+    display: flex;
+    list-style: none;
+}
+
+.outer-li a {
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 30px 20px;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+.outer-li i {
+    padding-left: 5px;
+}
+
+/* submenu open */
+.submenu {
+    position: absolute;
+    flex-direction: column;
+    text-align: left;
+    top: 73px;
+    padding: 10px 10px;
+    border-top: 3px solid var(--primary-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background: var(--white-color);
+    visibility: hidden;
+}
+
+.submenu li {
+    padding: 5px 0px;
+}
+
+.outer-li a:hover,
+.submenu li:hover {
+    color: var(--primary-color);
+}
+
+.outer-li:hover .submenu {
+    visibility: visible;
+}
+
+/* submenu close */
+
+
+#social button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s linear;
+}
+
+#social button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+#social button:hover {
+    background: var(--red-color);
+}
+
+#social i {
+    display: none;
+}
+
+/* navigation close */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+@media (max-width: 768px) {
+
+    /* naviagation open */
+    .nav-container {
+        position: static;
+        z-index: 1;
+    }
+
+    #logo img {
+        width: 65px;
+    }
+
+
+    #pages {
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+        left: -100%;
+        top: 0px;
+        z-index: 10;
+        padding: 20% 0% 0px 20px;
+        text-align: left;
+        background: var(--subnav-color);
+        transition: all .5s linear;
+        overflow: hidden;
+    }
+
+    .sidebar-slide {
+        left: 0% !important;
+    }
+
+
+    #pages ul {
+        flex-direction: column;
+    }
+
+    .outer-li {
+        margin-bottom: 16px;
+    }
+
+    #pages li a {
+        color: var(--white-color);
+    }
+
+
+    #social {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px 0px 0px;
+
+    }
+
+    #social i {
+        font-size: 30px;
+        display: block;
+    }
+
+
+    /* navigation close */
+
+
+    /* subnavigation open */
+    .outer-li {
+        overflow: hidden;
+    }
+
+    #social button {
+        display: none;
+    }
+
+    #social {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .submenu {
+        top: 5px;
+        border: none;
+        position: relative;
+        visibility: visible;
+        background: transparent;
+        box-shadow: none;
+        transition: all 0.25s ease;
+    }
+
+    .submenu li {
+        overflow: hidden !important;
+    }
+
+    .pages-submenu {
+        display: none !important;
+    }
+
+    .packages-submenu {
+        display: none !important;
+    }
+
+    .submenu-open {
+        display: flex !important;
+    }
+
+    .fa-solid {
+        overflow: hidden;
+    }
+
+    .submenu li a {
+        padding: 0px 0px 0px 20px;
+        margin: 0;
+    }
+
+    /* subnavigation close */
+}

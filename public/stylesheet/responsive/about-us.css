@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    :root {
+        --primary-color: #3D91DF;
+        --button-hover: #095399;
+        --white-color: #fff;
+        --black-color: #111111;
+        --red-color: #da0a60;
+        --hero-background: #c6d5e3;
+        --home-services-overview: #192655;
+        --services-div: #4B4B4B;
+        --price-plan: #F6EAEA;
+        --price-plan-hover: #98F89B;
+        --subnav-color: #161A30;
+    }
+
+    * {
+        /* overflow-x: hidden; */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* < !-- about us home start --> */
+
+    .about-us-home-img {
+        padding-top: 5px;
+    }
+
+    .about-us-home-inner {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* < !-- about us home stop --> */
+
+    /* < !-- about us services details open --> */
+
+    .about-us-services-info-inner {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /* < !-- about us services details close --> */
+
+    .about-us-about-details-inner {
+        width: 100%;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+
+    /* < !-- about us about details open --> */
+
+}

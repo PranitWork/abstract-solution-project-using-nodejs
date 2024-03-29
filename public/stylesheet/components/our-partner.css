@@ -1,0 +1,74 @@
+/* < !-- services our partner open --> */
+
+.ourPartner {
+    width: 100%;
+    text-align: center;
+    background: var(--black-color);
+    padding: 30px 0px;
+}
+
+.ourPartner h1 {
+    color: var(--white-color);
+    margin-bottom: 5px;
+}
+
+.ourPartner hr {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 5%;
+    padding: 2px 0px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.OurParner-inner {
+    width: 1000px;
+    margin: auto;
+    background: var(--services-div);
+    display: flex;
+    overflow-x: scroll;
+}
+
+.OurParner-inner::-webkit-scrollbar {
+    display: none;
+}
+
+
+.ourpartner-logo {
+    display: flex;
+    flex: none;
+}
+
+.ourpartner-logo img {
+    width: 200px;
+    height: 130px;
+    margin: 20px;
+    background: var(--white-color);
+}
+
+/* < !-- services our partner close --> */
+
+
+
+@media (max-width: 768px) {
+
+    /* < !-- services our partner open --> */
+
+    .OurParner-inner {
+        width: 90%;
+        overflow-x: scroll
+    }
+
+    .ourpartner-logo {
+        width: 550px;
+    }
+
+    .ourpartner-logo img {
+        width: 200px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+
+    /* < !-- services our partner close --> */
+}

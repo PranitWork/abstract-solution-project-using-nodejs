@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary-color: #3D91DF;
+    --button-hover: #095399;
+    --white-color: #fff;
+    --black-color: #111111;
+    --red-color: #da0a60;
+    --hero-background: #c6d5e3;
+    --home-services-overview: #192655;
+    --services-div: #4B4B4B;
+    --price-plan: #F6EAEA;
+    --price-plan-hover: #98F89B;
+    --subnav-color: #161A30;
+}
+
+
+
+/* home banner open */
+.services-banner {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.services-home-banner {
+    width: 1250px;
+    background: url(/images/services-page-images/web-design.jpg) no-repeat fixed;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 500px;
+    margin: auto;
+}
+
+/* home banner close */
+
+/* < !-- contact section open --> */
+
+.services-contact {
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+}
+
+.services-contact-innner {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#services-contact-1 {
+    display: flex;
+}
+
+#services-contact-1 hr {
+    width: 5px;
+    background: var(--primary-color);
+    border: 0;
+}
+
+#services-contact-1 h3 {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+#services-contact-2 {
+    align-items: center;
+    text-align: center;
+
+}
+
+#services-contact-2 img {
+    width: 100px;
+    height: 100px;
+}
+
+#services-contact-2 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* < !-- contact section close --> */
+
+
+/* < !-- services our services open --> */
+
+.services-ourservices {
+    width: 100%;
+    background: var(--black-color);
+    color: var(--white-color);
+    padding: 50px 0px 100px 0px;
+}
+
+.services-ourservices-inner {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.services-ourservices-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.services-ourservices-details {
+    width: 300px;
+    text-align: left;
+    background: var(--services-div);
+    padding: 25px;
+    border-radius: 25px;
+    transition: 0.3s linear;
+}
+
+.services-ourservices-details:hover {
+    background: var(--white-color);
+    color: var(--black-color);
+}
+
+.services-ourservices-details img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--white-color);
+    border-radius: 35px;
+    background: var(--white-color);
+}
+
+.services-ourservices-details h4 {
+    margin-top: 15px;
+    font-weight: 00;
+    letter-spacing: 0.4px;
+}
+
+.services-ourservices-details p {
+    text-align: left;
+    margin: 10px 0px;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+.services-ourservices-details button {
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.services-ourservices-button {
+    text-align: right;
+    width: 70%;
+    margin: auto;
+}
+
+.services-ourservices-button button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* < !-- services our services close --> */
+
+/*< !-- services pricing plan open--> */
+
+.services-pricing-plan {
+    width: 100%;
+    margin: 70px 0px 70px 0px;
+}
+
+.services-pricing-plan-inner {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.services-pricing-plan-inner h5 {
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.services-pricingplan-contents {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.services-pricing-plan-details {
+    width: 30%;
+    background: var(--price-plan);
+    padding: 20px;
+    height: 650px;
+    border-radius: 30px;
+    text-align: left
+        /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+.services-pricing-plan-details:hover {
+    background: var(--price-plan-hover);
+}
+
+.services-pricing-plan-details h4 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.services-pricingplan-year {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    align-items: baseline;
+}
+
+.services-pricingplan-year h1 {
+    font-size: 25px;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.services-pricingplan-year h4 {
+    color: var(--services-div);
+}
+
+.services-pricingplan-ptag {
+    margin-top: 30px;
+    height: 420px;
+}
+
+.services-pricingplan-ptag p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--services-div);
+}
+
+.services-pricing-plan-btn button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(#1B7BD3, #4AAEE7);
+    color: var(--white-color);
+    letter-spacing: 0.3px;
+    transition: 0.3s linear;
+}
+
+.services-pricing-plan-btn button a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.services-pricing-plan-btn button:hover {
+    background: var(--red-color);
+}
+
+/*< !-- services pricing plan close--> */

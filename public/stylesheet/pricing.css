@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary-color: #3D91DF;
+    --button-hover: #095399;
+    --white-color: #fff;
+    --black-color: #111111;
+    --red-color: #da0a60;
+    --hero-background: #c6d5e3;
+    --home-services-overview: #192655;
+    --price-plan: #F6EAEA;
+    --price-plan-hover: #98F89B;
+    --subnav-color: #161A30;
+
+}
+
+
+/* HOME OPEN */
+
+.pricing-home-img {
+    width: 100%;
+    padding-top: 70px;
+}
+
+.pricing-home-img-inner {
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    background: url(/images/pricing-page/pricing-bg.jpg) no-repeat center;
+    background-size: 100%, 100%;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-home-img-inner h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: var(--white-color);
+    display: inline-block;
+    font-family: 'Changa', sans-serif;
+    text-shadow: 4px 2px 2px rgb(0, 0, 0);
+}
+
+/* HOME CLOSE */
+
+/* PRICING OPTION OPEN */
+
+.pricing-option {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pricing-option-inner {
+    background: #C1C1C1;
+    padding: 25px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.pricing-option-inner button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: var(--primary-color);
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--white-color);
+    transition: all .3s linear;
+}
+
+.pricing-option-inner button:hover {
+    background: var(--red-color);
+}
+
+
+/* PRICING OPTION CLOSE */
+
+
+/* < !-- pricing section open --> */
+
+.all-pricing-outer {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0px 40px 0px;
+}
+
+.all-pricing-inner {
+    width: 1200px;
+    margin: auto;
+}
+
+.website-pricing {
+    text-align: center;
+    margin-top: 80px;
+
+
+}
+
+.website-pricing h1 {
+    margin: 0px 0px 40px 0px;
+}
+
+.website-pricing-details {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: auto;
+}
+
+.website-pricing-div {
+    width: 300px;
+    /* border: 2px solid black; */
+    padding: 10px 10px;
+    margin: 0px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: F6EAEA;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+
+.website-pricing-div:hover {
+    /* border: 2px solid var(--red-color); */
+    background: var(--price-plan-hover);
+    color: var(--black-color);
+}
+
+.website-pricing-div h2 {
+    margin: 2px 0px;
+    font-size: 28px;
+}
+
+.website-pricing-div p {
+    margin: 3px 0px;
+}
+
+.website-pricing-inner-image {
+    margin: 10px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background: url(/images/pricing-page/rocket.gif) no-repeat center;
+    background-size: 100% 100%;
+    display: inline-block;
+
+}
+
+#pricing-features-details p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.website-pricing-div button {
+    margin: 20px 0px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background: var(--primary-color);
+    transition: all 0.3s linear;
+}
+
+.website-pricing-div:hover.website-pricing-div button {
+    background: var(--red-color);
+}
+
+.website-pricing-div button a {
+    text-decoration: none;
+    color: var(--white-color);
+
+}
+
+#pricing-year {
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+    color: var(--services-div);
+}
+
+/* code website pricing open*/
+.code-website-pricing-detail {
+    display: flex;
+    justify-content: space-between;
+    background: var(--white-color);
+    padding: 80px 40px;
+    transition: all 0.1s linear;
+}
+
+.code-website-pricing-detail:hover {
+    border: 3px solid var(--red-color);
+}
+
+.code-website-pricing-details-heading {
+    display: flex;
+}
+
+.code-website-pricing-details-heading hr {
+    padding: 0px 5px;
+    background: var(--primary-color);
+    transition: all 0.3s linear;
+}
+
+.code-website-pricing-details-heading hr:hover {
+    background: var(--red-color);
+}
+
+.code-website-pricing-details-heading h1 {
+    margin: 0px 10px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.code-website-pricing-details-btn {
+    display: flex;
+    align-items: center;
+}
+
+.code-website-pricing-details-btn button {
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 17px;
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+
+.code-website-pricing-details-btn button:hover {
+    background: var(--red-color);
+}
+
+.code-website-pricing-details-btn button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+
+/* code website pricing close */
+
+/* functional open */
+
+.website-pricing-section {
+    display: none;
+}
+
+.design-pricing-section {
+    display: none;
+}
+
+.marketing-pricing-section {
+    display: none;
+}
+
+.videoediting-pricing-section {
+    display: none;
+}
+
+/* functional close */
+
+
+/* < !-- pricing section close --> */

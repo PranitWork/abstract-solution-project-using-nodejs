@@ -1,0 +1,119 @@
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+/* testimonials open  */
+
+#testimonials {
+    width: 100%;
+    text-align: center;
+}
+
+#testimonials-inner {
+    margin: auto;
+    width: 1000px;
+    padding: 40px 20px;
+}
+
+#testimonial-subheading {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--primary-color);
+    transition: 0.3s linear;
+}
+
+#testimonials-inner h3 {
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#testimonial-subheading:hover {
+    color: var(--red-color);
+}
+
+
+.testimonials-content {
+    border-top: 3px solid var(--primary-color);
+    width: 600px;
+    flex: none;
+    text-align: left;
+    margin: 30px 30px auto;
+    padding: 10px 30px 30px 30px;
+    box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
+    transition: 0.3s linear;
+}
+
+.testimonials-content:hover {
+    border-top: 3px solid var(--red-color);
+}
+
+.testimonials-content img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+}
+
+.testimonials-content p {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 18px;
+    text-wrap: wrap;
+}
+
+.testimonials-content h5 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#next-backbtn-testimonials {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-leftright-image {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.3s linear;
+}
+
+.testimonial-leftright-image:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.slider-div-testimonials {
+    overflow-x: scroll;
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.slider-div-testimonials::-webkit-scrollbar {
+    display: none;
+}
+
+/* testimonials close  */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* testimonials open  */
+@media (max-width: 768px) {
+    #testimonials-inner {
+        margin: auto;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .testimonials-content {
+        width: 250px;
+    }
+
+    .testimonials-content h5 {
+        margin-top: 20px
+    }
+
+    /* testimonials close  */
+}

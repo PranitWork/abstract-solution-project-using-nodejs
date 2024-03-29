@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+    :root {
+        --primary-color: #3D91DF;
+        --button-hover: #095399;
+        --white-color: #fff;
+        --black-color: #111111;
+        --red-color: #da0a60;
+        --hero-background: #c6d5e3;
+        --home-services-overview: #192655;
+        --services-div: #4B4B4B;
+        --price-plan: #F6EAEA;
+        --price-plan-hover: #98F89B;
+        --subnav-color: #161A30;
+    }
+
+    * {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* home banner open */
+    .services-banner {
+        padding-top: 0px;
+    }
+
+
+    /* home banner close */
+
+    /* < !-- contact section open --> */
+    .services-contact-innner {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #services-contact-2 {
+        margin-top: 50px
+    }
+
+    /* < !-- contact section close --> */
+
+    /* services our services open */
+
+    .services-ourservices-inner {
+        width: 100%;
+        position: relative;
+        height: 600px;
+    }
+
+    .services-ourservices-inner p {
+        margin: 10px 0px 30px 0px;
+    }
+
+    .services-ourservices-details {
+        margin-bottom: 20px;
+    }
+
+    .services-ourservices-content {
+        margin: 0;
+
+    }
+
+    .services-ourservices-content-rap {
+        position: absolute;
+    }
+
+    .services-ourservices {
+        padding: 50px 0px 50px 0px;
+    }
+
+    /* services our services close */
+
+    /* < !-- services pricing plan open--> */
+
+    .services-pricing-plan-inner {
+        width: 100%;
+    }
+
+    .services-pricingplan-contents {
+        justify-content: center;
+    }
+
+    .services-pricing-plan-details {
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    /* < !-- services pricing plan open--> */
+
+    /* < !-- services our partner open --> */
+
+    .OurParner-inner {
+        width: 90%;
+        overflow-x: scroll
+    }
+
+    .ourpartner-logo {
+        width: 550px;
+    }
+
+    .ourpartner-logo img {
+        width: 200px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+
+    /* < !-- services our partner close --> */
+
+}

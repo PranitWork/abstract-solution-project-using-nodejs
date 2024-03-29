@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary-color: #3D91DF;
+    --button-hover: #095399;
+    --white-color: #fff;
+    --black-color: #111111;
+    --red-color: #da0a60;
+    --hero-background: #c6d5e3;
+    --home-services-overview: #192655;
+    --price-plan: #F6EAEA;
+    --price-plan-hover: #98F89B;
+    --subnav-color: #161A30;
+
+}
+
+
+/* project home screen open */
+
+.project-home-screen {
+    width: 100%;
+    padding-top: 70px;
+    height: 400px;
+}
+
+.project-home-img {
+    margin: auto;
+    width: 1300px;
+    height: 100%;
+    background: url(/images/project-page-image/background-1.jpg) no-repeat fixed;
+    opacity: 0.9;
+    background-size: 100% 100%;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-home-img h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Changa', sans-serif;
+    text-shadow: 4px 2px 2px rgb(0, 0, 0);
+}
+
+/* project home screen close */
+
+
+body.hide-scrollbar {
+    overflow: hidden;
+}
+
+
+/* < !-- projects options open --> */
+.projects-options {
+    width: 100%;
+    margin: 30px 0px 20px 0px;
+}
+
+.projects-options-inner {
+    padding: 20px 10px;
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #9b99997a;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.projects-options-inner button {
+    padding: 10px 20px;
+    font-weight: 600;
+    background: var(--primary-color);
+    color: var(--white-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 2px;
+    letter-spacing: -0.5px;
+    transition: 0.3s linear;
+}
+
+.projects-options-inner button:hover {
+    background: var(--red-color);
+    border: 3px solid var(--red-color);
+}
+
+
+/* < !-- projects options close --> */
+
+
+/* < !-- project overview demo open --> */
+
+.project-overview-demo {
+    width: 100%;
+    background: var(--services-div-background) !important;
+}
+
+.project-overview-demo-inner {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.project-overview-details {
+    background: var(--project-div);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 3px solid black;
+    margin: 50px 20px;
+    width: 400px;
+    transition: all 0.3s linear;
+}
+
+.project-overview-details:hover {
+    border: 3px solid var(--red-color);
+}
+
+
+.project-overview-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.project-overview-image img {
+    width: 100%;
+    height: 200px;
+    background: var(--white-color);
+    /* border-radius: 25px 25px 0px 0px; */
+}
+
+.project-overview-details h3 {
+    margin: 10px 0px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: var(--black-color);
+}
+
+.project-overview-details p {
+    font-size: 15px;
+    height: 70px;
+    margin-left: 10px;
+    color: var(--black-color);
+}
+
+.project-overview-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.project-overview-details button {
+    width: 50%;
+    margin: 10px 0px 20px 0px;
+    border-radius: 20px;
+    padding: 15px 0px;
+    font-weight: 700;
+    color: var(--white-color);
+    background: var(--primary-color);
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.project-overview-details button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.project-overview-details button:hover {
+    background: var(--red-color);
+}
+
+.project-btn-content {
+    display: flex;
+}
+
+/* project overview demo click features */
+
+#Project-website-btn,
+#Project-other-btn,
+#Project-uiux-btn,
+#Project-design-btn {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.3s linear;
+}
+
+/* < !-- project overview demo close --> */
+
+/* < !-- projects after click open --> */
+
+.Project-afterclick {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    position: absolute;
+    top: 400px;
+    display: none;
+    background: #4242428a;
+    z-index: 200;
+    transition: all 0.3s linear;
+}
+
+
+.projectafter-click-showimg {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    transform: translate(0px, 40%);
+    transition: all 0.3s linear;
+
+}
+
+.projectafter-click-showimg img {
+    width: 100%;
+
+    height: 100%;
+    background: var(--services-div);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.projectafter-click-showimg i {
+    font-size: 30px;
+    position: absolute;
+    right: 5px;
+    color: var(--black-color);
+    top: 5px;
+}
+
+.projectafter-click-showimg i:hover {
+    color: var(--red-color);
+}
+
+/* < !-- projects after click close --> */

@@ -1,0 +1,466 @@
+@media (max-width: 768px) {
+    :root {
+        --primary-color: #3D91DF;
+        --button-hover: #095399;
+        --white-color: #fff;
+        --black-color: #111111;
+        --red-color: #da0a60;
+        --hero-background: #c6d5e3;
+        --home-services-overview: #192655;
+        --services-div: #4B4B4B;
+        --price-plan: #F6EAEA;
+        --price-plan-hover: #98F89B;
+        --subnav-color: #161A30;
+    }
+
+    * {
+        /* overflow-x: hidden; */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* naviagation open */
+    .nav-container {
+        position: static;
+        z-index: 1;
+    }
+
+    #logo img {
+        width: 65px;
+    }
+
+
+    #pages {
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+        left: -100%;
+        top: 0px;
+        z-index: 10;
+        padding: 20% 0% 0px 20px;
+        text-align: left;
+        background: var(--subnav-color);
+        transition: all .5s linear;
+        overflow: hidden;
+    }
+
+    .sidebar-slide {
+        left: 0% !important;
+    }
+
+
+    #pages ul {
+        flex-direction: column;
+    }
+
+    .outer-li {
+        margin-bottom: 16px;
+    }
+
+    #pages li a {
+        color: var(--white-color);
+    }
+
+
+    #social {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px 0px 0px;
+
+    }
+
+    #social i {
+        font-size: 30px;
+        display: block;
+    }
+
+    /* 
+    .fa-xmark {
+        display: none;
+    } */
+
+    /* navigation close */
+
+
+    /* subnavigation open */
+    .outer-li {
+        overflow: hidden;
+    }
+
+    #social button {
+        display: none;
+    }
+
+    #social {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .submenu {
+        top: 5px;
+        border: none;
+        position: relative;
+        visibility: visible;
+        background: transparent;
+        box-shadow: none;
+        transition: all 0.25s ease;
+    }
+
+    .submenu li {
+        overflow: hidden !important;
+    }
+
+    .pages-submenu {
+        display: none !important;
+    }
+
+    .packages-submenu {
+        display: none !important;
+    }
+
+    .submenu-open {
+        display: flex !important;
+    }
+
+    .fa-solid {
+        overflow: hidden;
+    }
+
+    .submenu li a {
+        padding: 0px 0px 0px 20px;
+        margin: 0;
+    }
+
+
+    /* subnavigation close */
+
+
+    /* home start */
+
+    #Home-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Home-text h5 {
+        font-size: 10px;
+        margin: auto;
+        text-align: left;
+        width: 72%;
+    }
+
+
+    #Home-text h1 {
+        font-size: 30px;
+    }
+
+    #Home-text p {
+        font-size: 10px;
+    }
+
+    #Home-text button {
+        padding: 10px 20px;
+    }
+
+
+    #Home-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* home close */
+
+    /* services open */
+    .Home-services-overview {
+        width: 100%;
+        padding-top: 300px;
+        padding-bottom: 350px;
+    }
+
+    .Home-services-overview::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .Home-services-overview::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        border-radius: 10px;
+    }
+
+    .services-overview-inner {
+        top: 5px;
+        /* position: relative; */
+
+    }
+
+    .services-info {
+        width: 80%;
+        margin: 15px 0px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .services-info p {
+        text-align: center;
+    }
+
+    /* services close */
+
+
+    /* contact message open  */
+    .contact-massage {
+        text-align: left;
+        overflow: hidden;
+        width: 90%;
+        top: 40px;
+        justify-content: space-between;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .contact-massage img {
+        position: relative;
+        left: 10px;
+        top: auto;
+        margin: 0;
+    }
+
+    .contact-massage h4 {
+        position: absolute;
+        left: 80px;
+        font-size: 16px;
+    }
+
+    /* contact message close  */
+
+
+
+
+    /* < !-- how we work open --> */
+
+    #how-we-work-innerdiv {
+        flex-wrap: wrap;
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .howwework-innercontent {
+        width: 100%;
+    }
+
+    #how-we-work-text {
+        margin: 0px auto;
+        text-wrap: wrap;
+        width: 100%;
+    }
+
+    #how-we-work-text h1 {
+        padding: 0px 0px;
+    }
+
+    #how-we-work-inner-text {
+        margin: 30px 0px 30px 0px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #how-we-work-img2 {
+        transform: translate(40px, 120px);
+        height: 200;
+    }
+
+    #how-we-work-img1 {
+        width: 300px;
+        height: 250px;
+        transform: translate(0%, 2%);
+
+    }
+
+    #how-we-work-img {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .howwework-images {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* < !-- how we work close --> */
+
+    /*     < !-- quotes/info section start --> */
+
+    #quotes-inner {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    #quotes-h1 {
+        width: 100%;
+    }
+
+    #quotes-text {
+        width: 100% !important;
+        padding: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+
+    #quotes hr {
+        width: 90%;
+        height: 1px;
+        color: var(--red-color);
+        margin-bottom: 30px;
+    }
+
+    #suminfo {
+        padding: 0px 10px;
+    }
+
+    /*     < !-- quotes/info section stop --> */
+
+    /*     < !-- bullet-info start --> */
+
+    #bullet-info-inner {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .bullet-info-content {
+        margin: 10px 0px;
+    }
+
+    /*     < !-- bullet-info stop --> */
+
+
+    /* testimonials open  */
+
+    #testimonials-inner {
+        margin: auto;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .testimonials-content {
+        width: 250px;
+    }
+
+    .testimonials-content h5 {
+        margin-top: 20px
+    }
+
+    /* testimonials close  */
+
+    /* < !-- thought section start --> */
+    #thought-inner {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #thought-text {
+        margin: 20px 0px 0px 0px;
+        width: 500px;
+        height: 300px;
+        background-color: var(--white-color);
+        padding: 20px 20px;
+        margin: auto;
+    }
+
+    #thought-arrow {
+        display: none;
+    }
+
+    #thought-outer-img {
+        margin: 20px 10px 20px 10px;
+        margin: auto;
+    }
+
+    /* < !-- thought section stop --> */
+
+
+    /* < !-- Reach Out open --> */
+    #reach-out-footer {
+        /* position: static; */
+        margin-top: 20px;
+    }
+
+
+    #reach-out-inner {
+        width: 80%;
+        flex-direction: column;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    #reach-out-inner h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #reach-out-inner h4 {
+        font-size: 15px;
+        margin-top: 20px
+    }
+
+    #reach-out-inner img {
+        width: 90px;
+        height: 90px;
+        transform: translate(0%, -20%);
+        position: static;
+
+    }
+
+    /* < !-- Reach Out close --> */
+    /* < !-- footer open --> */
+
+
+    #footer {
+        position: static;
+        margin-top: -100px;
+        padding-top: 100px;
+        justify-content: center;
+    }
+
+    #footer-heading {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-heading-text {
+        margin-top: 50px;
+    }
+
+    #footer-content-text {
+        text-align: center;
+    }
+
+
+    #footerlogo-name {
+        justify-content: center;
+
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+
+    .footer-heading-text h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #footer-content {
+        margin-top: 20px;
+    }
+
+    /* < !-- footer close --> */
+}

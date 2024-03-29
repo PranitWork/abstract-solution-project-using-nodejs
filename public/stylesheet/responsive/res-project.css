@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+    :root {
+        --primary-color: #3D91DF;
+        --button-hover: #095399;
+        --white-color: #fff;
+        --black-color: #111111;
+        --red-color: #da0a60;
+        --hero-background: #c6d5e3;
+        --home-services-overview: #192655;
+        --services-div: #4B4B4B;
+        --price-plan: #F6EAEA;
+        --price-plan-hover: #98F89B;
+        --subnav-color: #161A30;
+    }
+
+    * {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+    /* project home screen open */
+
+    .project-home-screen {
+        padding-top: 10px;
+    }
+
+    .project-home-img {
+        width: 100%;
+    }
+
+    .project-home-img h1 {
+        font-size: 35px
+    }
+
+    /* project home screen close */
+
+}
+
+@media (max-width: 768px) {
+
+    body.hide-scrollbar {
+        overflow: hidden;
+    }
+
+
+    /* < !-- projects options open --> */
+
+    .projects-options-inner {
+        width: 90%;
+    }
+
+    .projects-options-inner button {
+        padding: 8px 10px;
+        width: 80px;
+        font-size: 11px;
+    }
+
+    /* < !-- projects options close --> */
+
+    /* < !-- project overview demo open --> */
+    .project-btn-content {
+        justify-content: center;
+        margin: 40px 0px 70px 0px;
+        flex-wrap: wrap;
+    }
+
+    .project-overview-demo-inner {
+        width: 100%;
+    }
+
+
+    .project-overview-details {
+        margin: 30px 0px 0px 0px;
+        width: 80%;
+    }
+
+    /* < !-- project overview demo close --> */
+
+    /* < !-- projects after click open --> */
+    .Project-afterclick {
+        /* overflow-y: hidden; */
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 400px;
+        display: none;
+        background: transparent;
+        z-index: 200;
+        transition: all 0.3s linear;
+    }
+
+    .projectafter-click-showimg {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .projectafter-click-showimg img {
+        width: 95%;
+        height: auto;
+    }
+
+    .projectafter-click-showimg i {
+        position: absolute;
+        right: 21px;
+        top: 96px;
+    }
+
+    /* < !-- projects after click close --> */
+}

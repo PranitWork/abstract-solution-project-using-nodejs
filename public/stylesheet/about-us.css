@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary-color: #3D91DF;
+    --button-hover: #095399;
+    --white-color: #fff;
+    --black-color: #111111;
+    --red-color: #da0a60;
+    --hero-background: #c6d5e3;
+    --home-services-overview: #192655;
+    --services-div: #4B4B4B;
+    --price-plan: #F6EAEA;
+    --price-plan-hover: #98F89B;
+    --subnav-color: #161A30;
+    --about-us-bg: #F4F4F4;
+}
+
+/* < !-- about us home start --> */
+
+
+.about-us-home-img {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.about-us-home-inner {
+    margin: auto;
+    width: 1200px;
+    background: url(/images/about-us-page/about-us-bg.png) no-repeat center;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+/* < !-- about us home stop --> */
+
+
+/* < !-- about us services details open --> */
+
+.about-us-services-info {
+    width: 100%;
+    margin: 50px 0px 60px 0px;
+    text-align: center;
+}
+
+.about-us-services-info h1 {
+    font-size: 26px;
+}
+
+.about-us-services-info h1 span {
+    color: var(--red-color);
+}
+
+
+.about-us-services-info-inner {
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.about-us-services-detail {
+    background: var(--about-us-bg);
+    padding: 20px;
+    width: 240px;
+    margin-top: 50px;
+}
+
+.about-us-services-detail h2 {
+    font-size: 18px;
+}
+
+.about-us-services-detail img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.about-us-detail-p-tag {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.about-us-detail-p-tag p {
+    font-size: 12px;
+
+}
+
+.about-us-services-detail button {
+    padding: 10px 15px;
+    background: transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s all linear;
+}
+
+.about-us-services-detail button a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.about-us-services-detail button a:hover {
+    color: var(--white-color);
+}
+
+.about-us-services-detail button:hover {
+    background: var(--primary-color);
+}
+
+/* < !-- about us services details close --> */
+
+
+
+/* < !-- about us about details open --> */
+
+.about-us-about-details {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-us-about-details-inner {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about-us-about-details-inner h3 {
+    font-size: 25px;
+}
+
+.about-us-about-details-inner p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.about-us-about-detail-img {
+    width: 416px;
+    height: 270px;
+    background: var(--black-color);
+
+}
+
+.about-us-about-details hr {
+    padding: 1px 0px;
+    background: var(--black-color);
+    border: none;
+}
+
+.about-us-about-detail-text button {
+    padding: 10px 15px;
+    background: transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s all linear;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.about-us-about-detail-text button a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.about-us-about-detail-text button a:hover {
+    color: var(--white-color);
+}
+
+.about-us-about-detail-text button:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+/* < !-- about us about details close --> */

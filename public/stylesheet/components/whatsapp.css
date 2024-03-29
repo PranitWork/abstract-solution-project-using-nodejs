@@ -1,0 +1,21 @@
+.whatsapp-outer {
+    position: fixed;
+    bottom: 0px;
+    border-radius: 20px;
+    left: 25px;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.whatsapp-outer.active {
+    bottom: 50px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.whatsapp-outer img {
+    width: 50px;
+    height: 50px;
+}
